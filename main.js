@@ -24,3 +24,7 @@ b.addEventListener("change", function() {
          menuToggle.classList.toggle('active');
          navigation.classList.toggle('active');
         }
+
+document.getElementById("myButton").addEventListener("click", function() {
+  alert("Are you sure you want to send it?");
+});
